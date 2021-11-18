@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+   
+  
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+  apiKey: "AIzaSyBnKPqTtCYZ9gdywv7k8XISZ-PtXaniXwc",
+  authDomain: "maybe-i-am-good.firebaseapp.com",
+  databaseURL: "https://maybe-i-am-good-default-rtdb.firebaseio.com",
+  projectId: "maybe-i-am-good",
+  storageBucket: "maybe-i-am-good.appspot.com",
+  messagingSenderId: "123668632793",
+  appId: "1:123668632793:web:14972e6b906bcd73cb9ac8"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  
+  
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+</body></html>
